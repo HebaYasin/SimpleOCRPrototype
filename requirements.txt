@@ -1,0 +1,17 @@
+# ── Core ML / OCR ─────────────────────────────────────────────────────────
+torch>=2.0.0
+torchvision>=0.15.0
+python-doctr[torch]>=0.8.0
+
+# ── Image processing ───────────────────────────────────────────────────────
+opencv-python-headless>=4.8.0
+Pillow>=10.0.0
+scikit-image>=0.21.0          # required only for Sauvola binarization
+
+# ── Data & visualisation ───────────────────────────────────────────────────
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+
+# ── Frontend ───────────────────────────────────────────────────────────────
+streamlit>=1.35.0
